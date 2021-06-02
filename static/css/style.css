@@ -47,8 +47,8 @@ body {
 }
 /* for experiment --------------- */
 
-
-/* .logo {
+/*####################
+ .logo {
     width: 200px;
     height: 100px;
     position: relative;
@@ -65,8 +65,8 @@ body {
 
 .logo:hover .logo-back {
     display: inline;
-} */
-
+} 
+#####################*/
 
 .nav-link {
     flex-basis: 80%;
@@ -239,7 +239,7 @@ span.underline {
 
 .service-item-icon i {
     color: #7A0404;
-    transition: all 0.5s;
+    transition: all 1.5s;
 }
 
 .service-item-content {
@@ -253,13 +253,34 @@ span.underline {
 
 .service-item:hover .service-item-icon i {
     color: #fff;
+    /* transition: 0.9s; */
+    transform: rotateY(360deg);
 }
 
 
 
 .about-me {
-    height: 500px;
-    background-color: #171717;
+    background: #171717;
 }
+
+.about-me-title {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-me-title h2 {
+    font-size: 35px;
+}
+
+.content-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-col {
+    flex-basis: 50%;
+}
+
 
 

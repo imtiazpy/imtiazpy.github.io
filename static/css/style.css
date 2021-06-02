@@ -1,0 +1,265 @@
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    /* background-color: #1f2235; */
+    background-color: #252324;
+    height: 100px;
+}
+
+.logo {
+    flex-basis: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding-left: 50px;
+}
+
+
+/* ---------for experiment */
+.logo a{
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/mylogo.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -20px;
+    transition: all 0.5s;
+}
+
+.logo a:hover {
+    background-image: url(../images/mylogo2.svg);
+    background-repeat: no-repeat;
+}
+/* for experiment --------------- */
+
+
+/* .logo {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    display: inline-block;
+}
+
+.logo .logo-back {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 12px;
+}
+
+.logo:hover .logo-back {
+    display: inline;
+} */
+
+
+.nav-link {
+    flex-basis: 80%;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 0;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.nav-link ul li{
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.nav-link ul li:hover {
+    /* color: rgb(238, 58, 88); */
+    color: #7A0404;
+}
+
+.banner {
+    padding: 100px 30px 100px 50px;
+    background-color: #171717;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.col-1 {
+    flex-basis: 60%;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.col-1 ul {
+    padding: 0px;
+}
+
+.col-1 ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.col-1 ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li.social-item {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid rgb(238, 58, 88); */
+    border: 2px solid #7A0404;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px 10px 10px 0px;
+    transition: all 0.5s;
+}
+
+.col-1 ul li:hover {
+    background-color: #7A0404;
+}
+
+
+
+.short-bio h1 {
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+.short-bio p {
+    font-size: 25px;
+}
+
+.short-bio ul li {
+    border: 2px solid #7A0404;
+    border-radius: 30px;
+    margin: 0px 20px 0px 0px;
+    padding: 15px 25px;
+    transition: all 0.5s;
+}
+
+.play-btn {
+    background-color: #7A0404;
+}
+
+.short-bio ul li a i {
+    width: 40px;
+    text-align: center;
+}
+
+
+.col-2 {
+    flex-basis: 40%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+/* TODO for Banner img  */
+
+
+
+.services {
+    background-color: #252324;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0px 50px 0px;
+}
+
+
+/* .section-title span:not(.underline) {
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid #7A0404;
+    border-radius: 30%;
+    margin: 0px 5px;
+    padding: 15px 25px; 
+}*/
+
+.section-title h2 {
+    font-size: 35px;
+}
+
+span.underline {
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #7A0404;
+}
+
+
+.service-container-2nd {
+    margin: 50px 50px;
+}
+
+.service-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.service-col {
+    flex-basis: 33.33%;
+    padding: 0px 15px;
+    
+}
+
+.service-item {
+    padding: 50px 35px;
+    background-color: #171717;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.service-item-icon {
+    display: block;
+    text-align: left;
+    font-size: 35px;
+}
+
+.service-item-icon i {
+    color: #7A0404;
+    transition: all 0.5s;
+}
+
+.service-item-content {
+    display: block;
+    text-align: left;
+}
+
+.service-item:hover {
+    background-color: #7A0404;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+}
+
+
+
+.about-me {
+    height: 500px;
+    background-color: #171717;
+}
+
+

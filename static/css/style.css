@@ -136,6 +136,10 @@ li.social-item {
     background-color: #7A0404;
 }
 
+.col-1 ul li:hover a {
+    color: #171717;
+}
+
 
 
 .short-bio h1 {
@@ -162,6 +166,7 @@ li.social-item {
 .short-bio ul li a i {
     width: 40px;
     text-align: center;
+    transition: all 0.5s;
 }
 
 
@@ -298,3 +303,39 @@ span.underline {
     color: #7A0404;
 }
 
+
+
+
+
+.expertise-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 50px;
+    background-color: #252324;
+}
+
+.expertise-col {
+    flex-basis: 50%;
+    padding-right: 40px;
+}
+
+.expertise-col .color {
+    color: #7A0404;
+}
+
+.expertise-col p {
+    padding: 10px 0px 20px 0px;
+}
+
+.expertise-col ul li {
+    display: inline-block;
+    border: 2px solid #7A0404;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.expertise-col ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}

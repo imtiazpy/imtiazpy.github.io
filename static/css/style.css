@@ -273,6 +273,10 @@ span.underline {
     font-size: 35px;
 }
 
+.about-me-content {
+    padding: 0px 50px 50px 50px;
+}
+
 .content-row {
     display: flex;
     flex-wrap: wrap;
@@ -282,5 +286,15 @@ span.underline {
     flex-basis: 50%;
 }
 
+.content-col img {
+    align-items: center;
+}
 
+.about-me-info table tr td{
+    padding-right: 100px;
+}
+
+.about-me-info table tr td h4 {
+    color: #7A0404;
+}
 

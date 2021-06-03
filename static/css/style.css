@@ -90,6 +90,9 @@ body {
     color: #7A0404;
 }
 
+
+
+
 .banner {
     padding: 100px 30px 100px 50px;
     background-color: #171717;
@@ -119,6 +122,7 @@ body {
 .col-1 ul li a {
     text-decoration: none;
     color: #fff;
+    transition: all 0.5s;
 }
 
 li.social-item {
@@ -165,8 +169,8 @@ li.social-item {
 
 .short-bio ul li a i {
     width: 40px;
-    text-align: center;
-    transition: all 0.5s;
+    /* text-align: center; */
+    /* transition: all 0.5s; */
 }
 
 
@@ -323,19 +327,31 @@ span.underline {
     color: #7A0404;
 }
 
+.expertise-col h1 {
+    font-size: 40px;
+}
+
 .expertise-col p {
     padding: 10px 0px 20px 0px;
+    line-height: 30px;
 }
 
-.expertise-col ul li {
+
+.expertise-col a {
     display: inline-block;
+    text-decoration: none;
+    position: relative;
+    color: #fff;
     border: 2px solid #7A0404;
-    border-radius: 20%;
-    padding: 10px;
+    border-radius: 10%/50%;
+    padding: 15px 40px;  
+    transition: all 0.5s;
 }
 
-.expertise-col ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 20px;
+.expertise-col a:hover {
+    background-color: #171717;
+    color: #7A0404;
+    border: 2px solid #171717;
+    box-shadow: 5px 2px 15px #7A0404;
 }
+

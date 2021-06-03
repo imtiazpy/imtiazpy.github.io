@@ -254,16 +254,22 @@ span.underline {
 .service-item-content {
     display: block;
     text-align: left;
+    transition: all 0.5s;
 }
 
 .service-item:hover {
     background-color: #7A0404;
+    box-shadow: 10px 10px 15px black;
 }
 
 .service-item:hover .service-item-icon i {
     color: #fff;
     /* transition: 0.9s; */
     transform: rotateY(360deg);
+}
+
+.service-item:hover .service-item-content {
+    color: #171717;
 }
 
 
@@ -355,3 +361,15 @@ span.underline {
     box-shadow: 5px 2px 15px #7A0404;
 }
 
+
+
+.expertise-on-row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.expertise-on-col {
+    flex-basis: 25%;
+    border: 1px solid #7A0404;
+}

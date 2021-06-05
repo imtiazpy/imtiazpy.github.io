@@ -10,7 +10,8 @@
     /* border: 5px solid red; */
     align-items: center;
     padding: 0px 50px;
-    z-index: 17;
+    /* z-index: 17; */
+    z-index: 300;
 }
 
 .logo {

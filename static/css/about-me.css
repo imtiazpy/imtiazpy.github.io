@@ -1,6 +1,9 @@
 .about-me {
     background-color: #171717;
     padding: 50px 50px;
+    position: relative;
+    top: 590px;
+    z-index: 200;
 }
 
 /* .about-me-title {

@@ -1,0 +1,33 @@
+.expertise {
+    background-color: #252324;
+    padding: 100px 50px;
+}
+
+.expertise-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expertise-col {
+    flex-basis: 50%;
+    padding-right: 100px;
+}
+
+.expertise-col p {
+    line-height: 30px;
+}
+
+.expertise-col .hire-me-btn {
+    color: #fff;
+    padding: 15px 40px;
+    border: 2px solid #7a0404;
+    border-radius: 30px;   
+    transition: all 0.5s; 
+}
+
+.hire-me-btn:hover {
+    background-color: #171717;
+    color: #7a0404;
+    border: 2px solid #171717;
+    box-shadow: 2px 2px 15px #7a0404;
+}

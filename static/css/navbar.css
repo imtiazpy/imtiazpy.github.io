@@ -6,8 +6,9 @@
     display: flex;
     flex-wrap: wrap;
     height: 100px;
-    background-color: #252324;
-    /* border: 5px solid red; */
+    /* background-color: #252324; */
+    background-color: rgba(37, 35, 36, 0.90);;
+    border-bottom: 2px solid #171717;
     align-items: center;
     padding: 0px 50px;
     /* z-index: 17; */

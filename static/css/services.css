@@ -1,7 +1,8 @@
 .services {
-    background-color: #252324;
+    /* background-color: #252324; */
+    background-color: rgba(37, 35, 36, 0.90);
     padding: 50px 50px;
-    opacity: 0.98;
+    /* opacity: 0.98; */
 
     position: relative;
     top: 590px;

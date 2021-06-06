@@ -1,6 +1,10 @@
 .expertise {
     background-color: #252324;
     padding: 100px 50px;
+
+    position: relative;
+    top: 590px;
+    z-index: 200;
 }
 
 .expertise-row {
@@ -30,4 +34,8 @@
     color: #7a0404;
     border: 2px solid #171717;
     box-shadow: 2px 2px 15px #7a0404;
+}
+
+.expertise-col .expertise-header {
+    color: #7a0404;
 }

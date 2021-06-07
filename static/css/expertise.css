@@ -1,9 +1,11 @@
 .expertise {
     background-color: #252324;
-    padding: 100px 50px;
+    padding: 110px 50px;
+    height: 100vh;
 
     position: relative;
-    top: 590px;
+    /* top: 590px; */
+    top: 100vh;
     z-index: 200;
 }
 

@@ -1,11 +1,13 @@
 .services {
     /* background-color: #252324; */
-    background-color: rgba(37, 35, 36, 0.90);
-    padding: 50px 50px;
+    /* background-color: rgba(37, 35, 36, 0.7); */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 110px 50px;
     /* opacity: 0.98; */
 
     position: relative;
-    top: 590px;
+    /* top: 590px; */
+    top: 100vh;
     z-index: 200;
 }
 

@@ -23,7 +23,7 @@
 
 
 <body>
-
+    <div id="home"></div>
     <!-- ==========navbar starts here=============== -->
     <div class="navbar">
         <div class="logo">
@@ -34,15 +34,17 @@
         </div>
         <div class="nav-links">
             <nav>
-                <a href="">Home</a>
-                <a href="">Service</a>
-                <a href="">About</a>
-                <a href="">Skills</a>
+                <a href="#home">Home</a>
+                <a href="#service">Service</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
                 <a href="">Portfolio</a>
                 <a href="">Blog</a>
                 <a href="">Contact</a>
             </nav>
 
+            <span class="btn">BTN</span>
+            
 
             <!-- <div class="nav-flex">
                 <div class="nav-flex-item">
@@ -107,15 +109,18 @@
 
             <div class="banner-col-img">
                 <div class="banner-img">
-                    <img src="" alt="my-photo">
+                    <img src="./static/images/programmer-removebg-preview.png" alt="my-photo">
                 </div>
             </div>
+        </div>
+        <div class="down-arrow">
+            <a href="#service"><i class="fa fa-angle-double-down"></i></a>
         </div>
     </div>
     <!-- ==============Banner ends here============= -->
 
     <!-- ==============Services starts here============== -->
-    <div class="services">
+    <div id="service" class="services">
         <div class="service-title center">
             <h2>My Services</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius voluptates nobis 
@@ -190,7 +195,7 @@
     <!-- ================Services ends here=============== -->
 
     <!-- ================About Me starts here=============== -->
-    <div class="about-me">
+    <div id="about" class="about-me">
         <div class="about-me-title center">
             <h2>About Me</h2>
             <p>
@@ -235,7 +240,7 @@
     <!-- ================About Me ends here================= -->
 
     <!-- ================Expertise starts here================= -->
-    <div class="expertise">
+    <div id="skills" class="expertise">
         <div class="expertise-row">
             <div class="expertise-col">
                 <h1 class="expertise-header">Let's Work Together</h1>

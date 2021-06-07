@@ -1,9 +1,18 @@
 .about-me {
-    background-color: #171717;
-    padding: 50px 50px;
+    /* background-color: #171717; */
+    padding: 110px 50px;
     position: relative;
-    top: 590px;
+    /* top: 590px; */
+    top: 100vh;
     z-index: 200;
+    height: 100vh;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%,rgba(23, 23, 23, 0.8) 100%), 
+                                      url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 /* .about-me-title {
